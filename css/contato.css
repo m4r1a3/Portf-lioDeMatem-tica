@@ -1,0 +1,149 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+  .b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+  }
+
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+ 
+    .cabecalho{
+        color: rgb(0, 0, 0);
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+    .borda{
+        border: 2px solid white ;
+        border-radius: 30px;
+        margin: 15px;
+       text-align: center;
+    }
+    #ved{
+        color: #183100;
+    }
+    
+    #ver{
+        color: #882020;
+    }
+   a{
+        color: inherit; 
+        text-decoration: none;
+        
+
+    }
+  .row{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+ 
+  .btn-group{
+    width: 100px;
+    height: 30px;
+   
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+.borda{
+  border: 2px solid white ;
+  border-radius: 30px;
+  margin: 1px;
+  text-align: left;
+  padding: 20px;
+ 
+}
+html,
+body {
+height: 100%;
+}
+body {
+  background: rgb(249,178,178);
+  background: radial-gradient(circle, rgba(249,178,178,1) 0%, rgba(134,196,138,1) 100%);
+}
+.campos {
+border-radius: 20px;
+
+border: 2px solid white;
+}
+
+.botao {
+	background-color: rgb(85, 170, 85);
+    color: white;
+    border: 1px solid;
+    border-radius: 30px;
+    width: 300px;
+    height: 40px;
+}
+.menor{
+  text-align: center;
+  border: 2px solid white; 
+  width: 200px;
+  border-spacing: 0px;
+  text-align: center;
+  border-radius: 30px;
+  margin: 15px;
+  padding: 10px;
+  background-position: center;
+font-family:'Times New Roman', Times, serif;
+text-decoration: none;
+color: inherit; 
+
+}
+
+.menor:hover{
+  text-align: center;
+  border: 2px solid white; 
+  width: 200px;
+  border-spacing: 0px;
+  text-align: center;
+  border-radius: 30px;
+  margin: 15px;
+  padding: 10px;
+  background-position: center;
+font-family:'Times New Roman', Times, serif;
+background: rgb(237,167,167);
+background: radial-gradient(circle, rgba(237,167,167,1) 0%, rgba(160,221,162,1) 100%);
+text-decoration: none;
+color: inherit; 
+}
